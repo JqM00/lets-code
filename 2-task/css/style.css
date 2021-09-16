@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 44px;
+    text-align: center;
+    color: #66bfbf;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #66bfbf;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #66bfbf;
+}
+
+hr {
+    border: none;
+    border-top: 6px dotted #22192c ;
+    height: 4px;
+    width: 10%;
+    margin: 2% auto;
+}
+
+.first-block {
+    /* background-image: url(https://images7.alphacoders.com/805/805197.jpg);
+    background-size:  800px; */
+    background-color: #22192c;
+}
+
+.first-cloud {
+    display: flex;
+}
+
+.img-cloud {
+    justify-content: flex-end;
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.second-cloud {
+    display: flex;
+}
+
+.img-cloud-2 {
+    margin-left: 20%;
+}
+
+.mountain {
+    position: relative;
+    left: 50%
+}
+
+/* .mountain-img {
+    transform: translateX(-50%);
+} */
+
+.profile {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.profile-image {
+    border-radius: 60%;
+    height: 150px;
+    margin-bottom: 30px;
+    /* width: 120px; */
+}
+
+.p-description-about {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 80px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 60px auto;
+    line-height: 2;
+}
+
+.computer-img {
+    border-radius: 100%;
+    width: 18%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.coffee-img {
+    border-radius: 100%;
+    width: 18%;
+    float: right;
+    margin-right: 20px;
+}
+
+.p-description-skills {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.contact-me {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.get-in-touch {
+    font-size:  20px;
+    text-align: center;
+    margin-top: -20px;
+    color: #66bfbf;
+    margin-bottom: 40px;
+}
+
+.p-contact {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+}
+
+.p-contact-2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #66bfbf;
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.footer {
+    background-color: #22192c;
+    padding: 40px;
+}
+
+.footer-link {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: #FAFAFA;
+    margin: 10px;
+}
+
+.p-footer {
+    margin-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #FAFAFA;
+}
